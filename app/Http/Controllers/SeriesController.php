@@ -13,13 +13,22 @@ class SeriesController extends Controller
         ->get('https://api.themoviedb.org/3/movie/popular')
         ->json()['results'];
 
-        $genersArr = Http::withTOken(config('services.tmdb.token'))
+        $genersArr = Http::withToken(config('services.tmdb.token'))
         ->get('https://api.themoviedb.org/3/genre/list')
         ->json()['genres'];
 
-        // dump($genersArr);
+        $genres = collect($genersArr)->mapWithKeys(function($genre) {
+            return [$genre['id'] => $genre['name']];
+        });
+
+        $popularSeries = Http::withToken(config('services.tmdb.token'))
+        ->get('https://api.themoviedb.org/3/tv/popular')
+        ->json()['results'];
+        
+        // dump($genres);
         return view('index',[
-            'popularMovie' => $popularMovie
+            'popularMovie' => $popularMovie,
+            'popularSeries' => $popularSeries
         ]);
-    }
+    }                                                                                                                   
 }

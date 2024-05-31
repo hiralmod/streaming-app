@@ -102,8 +102,7 @@
                     <span>Sci-Fi & Fantasy, Drama, Comedy</span>
                 </div>
                 <p class="mt-12">
-                    The story of Ryu Sun-jae, a top star who sadly ends his life, and his romance with Im Sol who goes back to save him.
-                    Im Sol is devastated by the sudden and tragic death of her favorite star, Ryu Sun-jae, a former swimmer turned K-pop idol. But in the midst of her anguish, she magically time slips back to 2008 – when Sun-jae is still only 19 years old! Delighted that she has a chance to help him avert his unhappy future fate, Sol makes it her mission to change the future... and maybe find love along the way.
+                    Im Sol's life takes a dramatic turn thanks to Ryu Sunjae, a top K-pop idol who lifts her out of a deep personal struggle. Unfortunately, on one tragic night, Seonjae died; and the mysterious watch that used to belong to Seonjae activated and returned Im Sol to their high school days. Armed with future knowledge, she strives to change Seonjae's fate while falling in love with him in the process.
                 </p>
                 <h4 class="tracking-wider text-3xl font-semibold mt-12">Overview</h4>
                 <div class="grid grid-cols-3 mt-5">
